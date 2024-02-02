@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Assignment from bwi",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Gyanendra verma",
   "license": "ISC",
