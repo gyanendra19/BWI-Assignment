@@ -9,7 +9,7 @@ const app = express()
 
 app.use(express.json())
 
-
+// MONGODB CONNECT
 const DB = process.env.DATABASE.replace('<password>', process.env.PASSWORD)
 mongoose.connect(DB).then(con => {
     console.log('Connected')
